@@ -1,0 +1,8 @@
+language: python
+python:
+  - "2.7"
+# command to install dependencies
+install: "pip install -q -r requirements.txt"
+# command to run tests
+script: make html
+after_success: curl -X POST https://readthedocs.org/build/mydockdogs-dashboard
