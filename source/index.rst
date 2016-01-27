@@ -112,3 +112,8 @@ Information about development is also available:
    :caption: Operations Documentation
 
    rtfd
+
+Recent Changes
+--------------
+
+.. git_changelog::
