@@ -18,6 +18,7 @@ Welcome to MyDockDogs Dashboard Documentation's documentation!
    :maxdepth: 2
    :caption: DockDogs Membership
 
+   membership
 
 .. toctree:: 
    :maxdepth: 2
