@@ -2,39 +2,39 @@
 Welcome to MyDockDogs Dashboard Documentation's documentation!
 ==============================================================
 
-..toctree::
+.. toctree::
    :maxdepth: 2 
    :caption: Getting Started
 
 
-..toctree:: 
+.. toctree:: 
    :maxdepth: 2
    :caption: My Teams
 
 
-..toctree:: 
+.. toctree:: 
    :maxdepth: 2
    :caption: Event Registration
 
-..toctree:: 
+.. toctree:: 
    :maxdepth: 2
    :caption: DockDogs Titles
 
-..toctree:: 
+.. toctree:: 
    :maxdepth: 2
    :caption: DockDogs Rankings
 
 
-..toctree:: 
+.. toctree:: 
    :maxdepth: 2
    :caption: Event Results
 
 
-..toctree:: 
+.. toctree:: 
    :maxdepth: 2
    :caption: Payment & Credits
 
-..toctree:: 
+.. toctree:: 
    :maxdepth: 2
    :caption: FAQS
 
