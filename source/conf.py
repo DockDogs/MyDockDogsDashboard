@@ -62,7 +62,7 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 # General information about the project.
-project = u'DockDogs Office SOPs'
+project = u'MyDockDogs Dashboard'
 copyright = u'2016, DockDogs Worldwide'
 author = u'DockDogs Worldwide'
 
