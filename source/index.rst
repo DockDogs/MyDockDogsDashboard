@@ -12,6 +12,12 @@ Welcome to MyDockDogs Dashboard Documentation's documentation!
    :maxdepth: 2
    :caption: My Teams
 
+   teams
+
+.. toctree::
+   :maxdepth: 2
+   :caption: DockDogs Membership
+
 
 .. toctree:: 
    :maxdepth: 2
