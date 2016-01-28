@@ -5,7 +5,8 @@ Welcome to MyDockDogs Dashboard Documentation's documentation!
 .. toctree::
    :maxdepth: 2 
    :caption: Getting Started
-
+   
+   the-basics
 
 .. toctree:: 
    :maxdepth: 2
