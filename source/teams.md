@@ -2,6 +2,10 @@ DockDogs Teams
 ========================
 
 
+
+Getting Started
+-----------------------
+
 ### What is a Team, anyway?
 
 
@@ -10,7 +14,10 @@ DockDogs Teams
 
 
 
+
+
+
+Editing Existing Teams
+--------------------------
+
 ### Editing an Existing Team
-
-
-
