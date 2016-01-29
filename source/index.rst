@@ -47,6 +47,44 @@ Welcome to MyDockDogs Dashboard Documentation's documentation!
    :caption: FAQS
 
 
+Raw block
+---------
+
+.. raw:: html
+
+   <span class="pf pf-paypal"></span>
+
+Container
+---------
+
+.. container:: pf pf-paypal
+
+   ha!
+
+
+Custom Role
+-----------
+
+.. role:: paypal
+   :class: pf pf-paypal
+
+
+Hello :paypal:`.` World!
+
+
+Subustition
+-----------
+
+.. |paypal| raw:: html
+
+   <span class="pf pf-paypal"></span>
+
+
+Hello |paypal| World!
+
+
+
+
 Recent Changes
 --------------
 
