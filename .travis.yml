@@ -1,8 +1,9 @@
 language: python
 python:
-  - "2.7"
-# command to install dependencies
-install: "pip install -q -r requirements.txt"
-# command to run tests
+- '2.7'
+install: pip install -q -r requirements.txt
 script: make html
 after_success: curl -X POST https://readthedocs.org/build/mydockdogs-dashboard
+notifications:
+  slack:
+    secure: AtZ1zkhc57HWfJxlm8JNG1XZxRAVqx3wBEq1lczpP3KGvpubftH0cn/PQqdZSusfr0goM4Lnu7+kSgMrrmJYmGf2qJd5cUnGemDAPf7T/Qz15GLFcoaZ5UroCe4lShyc5ynVfGe0pq3v1jOlY7zontgRvmkULLPeD5EoVnVnr1TEx3ir3e1OT2cd89pNrVMWmZ9l9YWWXgN0y/6kOUqG+9bKZDkZEKe9JbYShTRfTv7ezsbBREJfwlM1CqzRx1pQ+NZ4hRkvHKun5PsKbwxqkQ/7lzac1jd3Q3PTG2VfdgKiPbuxbpu0bsPpBdzoJ+qHQiVgaJKaopPhixcI8Hy8r265e6kcC3TAWrf978hgLwQVMBhW+rucRCaeNZZ/PFOjGIj2KNH3yxl9AXZEL19YmgAVnRwN55wzTIBvZVGLbHaqovVSncxPQ11z+wD1DnSEn6u7g0TSHfQi3zhpXY6zOR8yzpiEtZE/oKU3L3AUQTtQqYZjsxGiIC9eN/e6NhXvad8Tpwfjp+4TfKvktzQNdzOCjZRosJzOVIMgL1NCvkNHRk8SA6iacK/W3HeZciq8GUC5bSf2nTFNOnYI47vgbIJQ2j/p3LrN7HqbMoNSOtyWrpGaPr+b+HIJa0DoejMr++jGpWT0JhPrlIsKChOl07bUD9u2jdlsERpqNh/u82o=
