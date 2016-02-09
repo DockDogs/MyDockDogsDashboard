@@ -7,6 +7,7 @@ Welcome to MyDockDogs Dashboard Documentation's documentation!
    :caption: Getting Started
    
    the-basics
+   rst
 
 .. toctree:: 
    :maxdepth: 2
