@@ -1,38 +1,87 @@
-Introduction & Signing Up For Account
-=======================================
+Introduction
+------------
 
-DockDogs uses Google Apps for Business for handling dockdogs.com email, file sharing and other collaboration and communication tools.
+The DockDogs Scheduling Smartsheet utilizes dropdown menus for many of
+the fields. These dropdowns are important as they are the basis of how
+reports are generated and sent. Additionally, they are there to
+standardize the data that is input by the various parties interfacing
+with the document.
 
-.. tip:: `Google Apps Learning Center <https://apps.google.com/learning-center/>`_ is available online and has excellent tutorials for familiarizing yourself with using Google Apps tools. 
+!!! danger “WARNING - IMPORTANT” ****If a new dropdown status is
+required please contact the DockDogs Office. It is VERY IMPORTANT that
+you do not TYPE IN RANDOM OR NEW CONTENT INTO DROPDOWN MENUS OR THIS
+WILL BREAK THINGS. YOU HAVE BEEN WARNED.****
 
+Awards
+~~~~~~
 
+-  Please use the following icons for determining the status of Awards.
 
-Email
-~~~~~~~~~~~~~~~~~~
+   -  Need - Need to order for this event.
+   -  Ordered - Order has been placed.
+   -  Shipped - Awards order has been shipped. Admin needs to pick-up
+      from shipping location.
+   -  Blank - Club event or otherwise not necessary.
 
-- Email can be accessed via your web browser using the standard Gmail web interface or setup in a mail client such as Outlook, Mail.app, Postbox, etc.
-	- [http://gmail.dockdogs.com](http://gmail.dockdogs.com)
-	- The browser based option is great as it is available from any computer with an internet connection. 
-- Basic Details for Email Client Setup
-	- Email should always be setup as **IMAP**.
-	- Incoming mailserver: imap.gmail.com _(Use port 993)_
-	- Outgoing mailserver: smtp.gmail.com _(Use port 465 or 587)_
+Posted
+~~~~~~
 
-.. tip:: When using Microsoft Outlook for **Windows** Google has an excellent add-on which allows you to take full advantage of the Google Apps ecosystem from the confines of MS Outlook. Check out the [Google Apps Sync plugin](https://tools.google.com/dlpage/gappssync).
+-  Please use the following icons for identifying if the event has been
+   posted & opened for registration. Note: This field is also used for
+   several reports such as the `Sponsorship Reports`_
 
-Calendar
-~~~~~~~~~~~~~~~~~~~~
+   -  GREEN - POSTED
 
-* Your calendar can be accessed via your web browser when using your desktop/laptop computer. Your DockDogs Calendar can be accesed at `http://calendar.dockdogs.com <http://calendar.dockdogs.com>`_. 
-	* Check to make sure the DockDogs Logo is in the upper left hand corner of your screen once arriving to Google Calendar, if it is not, you're not logged into the right account.  
+Hotels
+~~~~~~
 
+-  Please use the following icons for identifying the status of hotels
+   for our staff being acquired/if they need to be acquired/etc.
 
-Contacts
-~~~~~~~~~~~~~~~~~~~~~~~~
+   -  Supplied - If hotels are supplied to us please set the status to
+      “Supplied.” **Also, please be sure to identify the hotel details
+      in the appropriate column.**
+   -  Required - Use this field for when we have to obtain hotels for
+      the staff.
 
-* Coming soon.
+Insurance
+~~~~~~~~~
 
-Google Drive (Google Docs, Sheets, & Slides)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-  Please use the following options for identifying the status of
+   purchasing/obtaining insurance for a given event.
 
-* The DockDogs Google Drive can be accessed via your web browser when using your desktop/laptop computer. You should bookmark this in your web browser for easy access. Access the DockDogs Google Drive by logging in with your **DockDogs Email & Password** at `http://drive.dockdogs.com <http://drive.dockdogs.com>`_
+   -  Obtain (Club) - Use this for club events that we have yet to
+      obtain the insurance details from.
+   -  Obtain (DDWW) - Use this for National events that we have yet to
+      order insurance for.
+   -  Complete (Club) - Use this for Club Events that have submitted
+      their insurance certificate.
+   -  Complete (DDWW) - Use this for National Events that we have
+      received the certificate of insruance for.
+
+Status
+~~~~~~
+
+-  Please use this column for identifying if this is a date hold.
+
+   -  Hold - This is a temporary date hold. Please be sure to fill in
+      all details possible. For event name identify if it’s a
+      club/national event and any other details.
+   -  Confirmed - Use this to identify events that are confirmed. ***All
+      details for this row should be filled in for this particular
+      event.***
+
+Crew Confirmed
+~~~~~~~~~~~~~~
+
+-  Please use the following icons for identifying the status of sending
+   an event schedule to the events team members listed under the various
+   positions. ***This pertains to `Events Team Reports`_***.
+
+   -  Confirmed - The team members are confirmed.
+   -  Tentative - One or more team members for this event may still need
+      to be confirmed. Once all team members for this event have
+      confirmed with **Brian Sharenow** he should identify this as \*
+
+.. _Sponsorship Reports: http://dockdogs.github.io/dockdogs-scheduling/reporting/pre-built-sponsors-report/#confirmed-versus-tentative-status
+.. _Events Team Reports: reporting/events-team-reports/
