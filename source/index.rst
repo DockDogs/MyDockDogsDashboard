@@ -22,12 +22,19 @@ and the `DockDogs Registration System <https://dockdogsevents.com>`_.
     :maxdepth: 2
     :caption: My Teams
 
+    teams
+
 .. toctree::
     :hidden:
     :maxdepth: 2
     :caption: Events
 
 
+
+.. toctree::
+    :hidden:
+    :maxdepth: 2
+    :caption: Membership
 
 .. toctree::
     :hidden:

@@ -1,2 +1,0 @@
-Join DockDogs Worldwide
-============================

@@ -251,8 +251,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'SphinxTest.tex', u'Sphinx Test Documentation',
-   u'Brian J King', 'manual'),
+  (master_doc, 'MyDockDogsDashboard.tex', u'MyDockDogs Dashboard Documentation',
+   u'Brian J King, DockDogs Worldwide', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
