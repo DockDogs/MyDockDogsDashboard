@@ -24,6 +24,19 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
     html_theme = 'sphinx_rtd_theme'
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
+# For Paymentfont.io Icon Support (in addition to adding css & font to _static folder as per https://github.com/sphinx-doc/sphinx/issues/2274 )
+
+def setup(app):
+    app.add_stylesheet('css/paymentfont.css')
+
+
+html_context = {
+  "display_github": False, # Add 'Edit on Github' link instead of 'View page source'
+  "last_updated": True,
+  "commit": False,
+}
+
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -44,7 +57,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
-    'sphinx_git', 
+    'sphinx_git',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -185,13 +198,13 @@ html_use_smartypants = True
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-#html_show_copyright = True
+html_show_copyright = True
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
@@ -302,12 +315,6 @@ texinfo_documents = [
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
-
-# PaymentFont Support
-
-def setup(app):
-    app.add_stylesheet('css/paymentfont.css')
-
 
 # Markdown support
 
