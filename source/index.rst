@@ -38,12 +38,34 @@ and the `DockDogs Registration System <https://dockdogsevents.com>`_.
 
 .. toctree::
     :hidden:
+    :maxdepth: 2
+    :caption: Event Results
+
+.. toctree::
+    :hidden:
+    :maxdepth: 2
+    :caption: DockDogs Rankings
+
+.. toctree::
+    :hidden:
+    :maxdepth: 2
+    :caption: DockDogs Titles
+
+.. toctree::
+    :hidden:
+    :maxdepth: 2
+    :caption: DockDogs Credits
+
+.. toctree::
+    :hidden:
     :maxdepth: 1
     :caption: FAQs
 
+    faqs
 
+.. toctree::
+    :hidden:
+    :maxdepth: 1
+    :caption: Misc.
 
-Recent Changes
---------------
-
-.. git_changelog::
+    changelog
