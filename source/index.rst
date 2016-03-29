@@ -56,6 +56,9 @@ and the `DockDogs Registration System <https://dockdogsevents.com>`_.
     :maxdepth: 2
     :caption: DockDogs Credits
 
+    earning-credits
+    using-credits
+
 .. toctree::
     :hidden:
     :maxdepth: 1
